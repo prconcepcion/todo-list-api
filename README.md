@@ -4,7 +4,6 @@
 <p align="center">
     <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=javascript&labelColor=black&color=black">
     <img alt="Static Badge" src="https://img.shields.io/badge/ExpressJS-white?style=for-the-badge&logo=Express&labelColor=black&color=black">
-    <img alt="Static Badge" src="https://img.shields.io/badge/insomnia-%234000BF?style=for-the-badge&logo=insomnia&labelColor=%234000BF&color=%234000BF">
 </p>
 
 ## Details
@@ -84,3 +83,16 @@ Each of the routes always returns a message in JSON format:
 
 ### Testing and Tools
 I used **Insomnia** to test the API. I also added a `test.js` which has an array that contains 100,000 objects to be used to check the speed of the API but I think it is unreliable.
+
+## Shortcomings
+I was not able to test the following for I am unknowledgeble on what tools to use to load test an API:
+- [ ] A task in the TODO list should be able to handle being moved more than 50 times
+- [ ] The application should be able to handle 1 million tasks with a response time of under 5 seconds
+
+\
+But in theory it should go like this:
+
+For the first one: I would create a script that would pass reorder a task fifty times in a row and from there I would be able to determine if my API is efficient or not based o the response time. 
+\
+\
+For the second one: I would make sure that server side code for processing the requests would be optimized since the app scales fast.
