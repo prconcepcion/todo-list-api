@@ -1,4 +1,4 @@
-// import { testTasks } from './test.js'
+import { testTasks } from './test.js'
 import express from 'express'
 
 const app = express();
@@ -175,6 +175,7 @@ const taskReorder = ( arr, oldIndex, newIndex ) => {
     arr.splice( newIndex, 0, arr.splice( oldIndex, 1 )[0] )
 }
 
+// Validates isCompleted field
 const validateIsCompleted = ( isCompleted ) => {
 
     if ( ! isCompleted ) {
@@ -198,6 +199,7 @@ const validateIsCompleted = ( isCompleted ) => {
 
 }
 
+// Validates description field
 const validateDescription = ( description ) => {
 
     if ( ! description ) {
@@ -221,6 +223,7 @@ const validateDescription = ( description ) => {
 
 }
 
+// Validates id field
 const validateId = id => {
     return isNaN( id ) || parseInt( id, 10 ) <= 0
 }
