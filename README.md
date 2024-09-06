@@ -2,9 +2,9 @@
 
 ## Built With
 <p align="center">
-    JavaScript and ExpressJS <br>
-    [![JavaScript](https://en.m.wikipedia.org/wiki/File:Unofficial_JavaScript_logo_2.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) <br>
-    [![ExpressJS](https://commons.wikimedia.org/wiki/File:Expressjs.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    <img alt="Static Badge" src="https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=javascript&labelColor=black&color=black">
+    <img alt="Static Badge" src="https://img.shields.io/badge/ExpressJS-white?style=for-the-badge&logo=Express&labelColor=black&color=black">
+    <img alt="Static Badge" src="https://img.shields.io/badge/insomnia-%234000BF?style=for-the-badge&logo=insomnia&labelColor=%234000BF&color=%234000BF">
 </p>
 
 ## Details
@@ -83,4 +83,4 @@ Each of the routes always returns a message in JSON format:
     - Reorders the array based on the `newOrder` located in the response body
 
 ### Testing and Tools
-I used **Insomnia** to test the API. I also added a `test.js` which has an array that contains 100,000 objects to be used to check the speed of the API but I think it is unreliable. 
+I used **Insomnia** to test the API. I also added a `test.js` which has an array that contains 100,000 objects to be used to check the speed of the API but I think it is unreliable.
