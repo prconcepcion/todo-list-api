@@ -95,4 +95,4 @@ But in theory it should go like this:
 For the first one: I would create a script that would pass reorder a task fifty times in a row and from there I would be able to determine if my API is efficient or not based o the response time. 
 \
 \
-For the second one: I would make sure that server side code for processing the requests would be optimized since the app scales fast.
+For the second one: I would make sure that server side code for processing the requests would be optimized since the app scales fast. I would also make sure to find a way to compress responses that have a huge payloads.
